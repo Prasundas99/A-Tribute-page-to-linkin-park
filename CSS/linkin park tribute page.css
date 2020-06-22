@@ -1,0 +1,184 @@
+*{
+    padding: 0.5px;
+    margin: 0.5px;
+}
+body{
+    
+      
+   background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+      
+}
+#click{
+    font-size: 20px;
+}
+nav{
+    
+ 
+   min-height: 10px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   
+}
+.nav-links{
+   
+    
+}
+.nav-links li{
+    list-style: none;
+}
+.navbar-custom{
+    
+    background-image: url(220px-Black_colour.jpg);
+    color: rgb(184, 184, 180);
+  
+  opacity: 0.7;
+}
+ul  li a{
+    
+    color: grey;
+   
+
+}
+#nav :hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.item-custom {
+    height: 390px;
+    
+}
+.side-adjust{
+    padding-left: 0.7cm;
+}
+.border{
+    padding: 10px;
+    border: 1.5px solid white;
+    background: black;
+    
+}
+.text{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15px;
+    
+    font-family: cursive;
+}
+
+.biography{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    height: auto;
+    width: auto;
+    
+    
+    
+
+}
+.biography :hover {
+    background: white;
+    color: black;
+      
+}
+
+h4{
+    font-size: 19px;
+}
+
+.biography a{
+    border: 2px solid white;
+    color: rgb(241, 204, 135);
+    margin: 5px;
+    
+}
+
+
+.biography a:hover{
+    background: white;
+    color: black;
+
+}
+
+.discography{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+.discography img{
+    height:200px;
+    width: 200px;
+    margin-top: 25px;
+}
+.discography a{
+    color: rgb(156, 138, 138);
+}
+.discography  :hover{
+    color: black;
+    background: white;
+    
+}
+footer{
+   background-image: url(220px-Black_colour.jpg);
+   text-align: center;
+}
+footer a{
+    color: white;
+}
+.last a{
+    font-size: larger;
+    color: white;
+}
+.last a :hover{
+    background: white;
+}
+.last img{
+    height: auto;
+    width: 100%;
+}
+.burger{
+    display: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 4px;
+    
+
+}
+@media only screen and (min-width: 801px) {
+#click{
+    display: none;
+}
+}
+@media only screen and (max-width: 800px) {
+   
+      
+   
+      
+       
+       
+       
+       
+   
+   
+
+#nav{
+    display: none;
+}
+
+   
+
+}
+
