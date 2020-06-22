@@ -1,1 +1,0 @@
-# A-Tribute-page-to-linkin-park
