@@ -4,7 +4,6 @@
 }
 body{
     
-      
    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,15 +15,13 @@ body{
 }
 nav{
     
- 
    min-height: 10px;
    text-transform: uppercase;
-   letter-spacing: 2px;
+   letter-spacing: 3px;
    
 }
 .nav-links{
    
-    
 }
 .nav-links li{
     list-style: none;
@@ -37,79 +34,71 @@ nav{
   opacity: 0.7;
 }
 ul  li a{
-    
-    color: grey;
-   
+    color: #ccc;
 
 }
 #nav :hover{
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     
 }
 
 .item-custom {
-    height: 390px;
+    height: 400px;
     
 }
 .side-adjust{
-    padding-left: 0.7cm;
+    padding-left: 0.8cm;
 }
 .border{
     padding: 10px;
-    border: 1.5px solid white;
-    background: black;
+    border: 1.7px solid #fff;
+    background: #000;
     
 }
 .text{
-    color: white;
-    font-size: 17px;
+    color: #fff;
+    font-size: 18px;
     text-align: center;
-    padding: 8px;
+    padding: 9px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 15px;
+    margin: 16px;
     
-    font-family: cursive;
+    font-family: cursive, cedarville;
 }
 
 .biography{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 3px;
+    padding: 5px;
     height: auto;
     width: auto;
-    
-    
-    
-
 }
 .biography :hover {
-    background: white;
-    color: black;
-      
+    background: #fff;
+    color: #000;  
 }
 
 h4{
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .biography a{
-    border: 2px solid white;
-    color: rgb(241, 204, 135);
+    border: 2px solid #fff;
+    color: rgb(242, 206, 138);
     margin: 5px;
-    
 }
 
 
 .biography a:hover{
-    background: white;
-    color: black;
+    background: #fff;
+    color: #000;
 
 }
 
 .discography{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
     padding: 30px;
     margin-top: 20px;
@@ -121,11 +110,11 @@ h4{
     margin-top: 25px;
 }
 .discography a{
-    color: rgb(156, 138, 138);
+    color: rgb(156, 138, 140);
 }
 .discography  :hover{
-    color: black;
-    background: white;
+    color: #000;
+    background: #fff;
     
 }
 footer{
@@ -133,14 +122,14 @@ footer{
    text-align: center;
 }
 footer a{
-    color: white;
+    color: #fff;
 }
 .last a{
     font-size: larger;
-    color: white;
+    color: #fff;
 }
 .last a :hover{
-    background: white;
+    background: #fff;
 }
 .last img{
     height: auto;
@@ -154,31 +143,20 @@ footer a{
     height: 3px;
     background-color: aliceblue;
     margin: 4px;
-    
+}
 
-}
 @media only screen and (min-width: 801px) {
-#click{
-    display: none;
+    
+    #click{
+        display: none;
+    }
 }
-}
+
 @media only screen and (max-width: 800px) {
    
-      
-   
-      
-       
-       
-       
-       
-   
-   
-
-#nav{
-    display: none;
-}
-
-   
+    #nav{
+        display: none;
+    }
 
 }
 
